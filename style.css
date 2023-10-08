@@ -1,0 +1,119 @@
+body{
+
+    background-color: #262626;
+    color: #fc4c20;
+
+}
+
+
+p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    user-select: none;
+    letter-spacing: 5px;
+    font-size: 80px;
+    transform: rotate(0.8deg,8deg);
+    text-shadow:  -1px 1px #861c02,
+                   -2px 2px #861c02,
+                   -3px 3px #861c02,
+                   -4px 4px #861c02,
+                   -5px 5px #861c02,
+                   -6px 6px #861c02,
+                   -7px 7px #861c02,
+                   -8px 8px #861c02,
+                   -9px 9px #861c02 ,
+                   -20px 20px 5px rgba(0, 0, 0, .8);
+    animation: bganim 3s linear ; 
+  border:1px solid red;
+}
+
+#logo{
+
+width: 23%;
+height: 33vh;
+background-color: white;
+background-repeat: no-repeat;
+background-size: 120% 100%;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-color:#fc4c20;
+border-style: solid;
+border-width: 10px;
+box-shadow:  3px 3px 3px  #262626, inset 5px 5px 5px 5px  #262626;
+}
+
+
+@keyframes bganim {
+
+0%{color: #262626;}
+100%{color:#fc4c20 ;}
+
+}
+
+@media screen and (max-width:500px) {
+
+
+body{
+
+background-color: #262626;
+color: #fc4c20;
+
+}
+
+
+p{
+
+display: flex;
+justify-content: center;
+align-items: center;
+outline: none;
+user-select: none;
+letter-spacing: 5px;
+font-size: 15px;
+white-space: nowrap;    
+text-shadow:  -1px 1px #861c02,
+           -2px 2px #861c02,
+           -3px 3px #861c02,
+           -4px 4px #861c02,
+           -5px 5px #861c02,
+           -6px 6px #861c02,
+           -7px 7px #861c02,
+           -8px 8px #861c02,
+           -9px 9px #861c02 ,
+           -20px 20px 5px rgba(0, 0, 0, .8);
+animation: bganim 3s linear ; 
+}
+
+#logo{
+
+width: 23%;
+height: 33vh;
+background-color: white;
+background-repeat: no-repeat;
+background-size: 120% 100%;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-color:#fc4c20;
+border-style: solid;
+border-width: 10px;
+box-shadow:  3px 3px 3px  #262626, inset 5px 5px 5px 5px  #262626;
+}
+
+
+@keyframes bganim {
+
+0%{color: #262626;}
+100%{color:#fc4c20 ;}
+
+}
+
+
+
+}
